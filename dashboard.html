@@ -1,0 +1,281 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.1/examples/dashboard/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="./dashboard.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="./index.html">Dolphin Watch</a>
+      <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="./index.html">Sign out</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-dark sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active text-danger" href="./index.html">
+                  <span data-feather="home"></span>
+                  Main Site<span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">
+                  <span data-feather="file"></span>
+                  Reported Pirate Sightings
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="#">
+                  <span data-feather="shopping-cart"></span>
+                  Attacks on Commercial MNC Interests
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="#">
+                  <span data-feather="users"></span>
+                  Informants, Finned and Otherwise
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="#">
+                  <span data-feather="bar-chart-2"></span>
+                  Reports
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="#">
+                  <span data-feather="layers"></span>
+                  Files to be Shredded
+                </a>
+              </li>
+            </ul>
+
+            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+              <span>Previous Interventions</span>
+              <a class="d-flex align-items-center text-muted" href="#">
+             
+              </a>
+            </h6>
+            <ul class="nav flex-column mb-2">
+              <li class="nav-item">
+                <a class="nav-link  text-light" href="#">
+                  <span data-feather="file-text"></span>
+                  Current month
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">
+                  <span data-feather="file-text"></span>
+                  Last quarter
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">
+                  <span data-feather="file-text"></span>
+                  Social engagement
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">
+                  <span data-feather="file-text"></span>
+                  Minion Deaths
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <div class="modal fade modal-xl" tabindex="-1" id="alarmModal">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">ARRRRRRROOOOOAAAA, ARRROOOOOOOOAAAA!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./images/navy.jpg" style="width: 100%"/>
+                  <p class="card-text">WARNING! Dolphin Pirates sighting! Battle Stations!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade modal-xl" tabindex="-1" id="allswellModal">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">All's Well</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./images/allswell.jpg" style="width: 100%"/>
+                  <p class="card-text">All's well on this front. The seas are clear, Cap'n!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+          <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <h1 class="h2">Dolphin Pirate Sightings</h1>
+            <div class="btn-toolbar mb-2 mb-md-0">
+              <div class="btn-group mr-2">
+                <button class="btn btn-sm btn-outline-secondary bg-primary text-light" data-toggle="modal" data-target="#allswellModal">Call All's Well</button>
+                <button class="btn btn-sm btn-outline-secondary bg-danger text-light" data-toggle="modal" data-target="#alarmModal">Activate Alarm</button>
+ 
+              </div>
+              
+            </div>
+          </div>
+
+          <canvas class="my-4 w-100 bg-dark" id="myChart" width="900" height="380"></canvas>
+
+          <h2>Report of Engagements</h2>
+          <div class="table-responsive">
+            <table class="table table-striped table-sm">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Head Minion</th>
+                  <th>Combatant</th>
+                  <th>Casualties</th>
+                  <th>Capture?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1/12/20</td>
+                  <td>L. Lubber</td>
+                  <td>Fisher</td>
+                  <td>6</td>
+                  <td>no</td>
+                </tr>
+                <tr>
+                  <td>2/2/20</td>
+                  <td>F. S. H. Hater</td>
+                  <td>Castle</td>
+                  <td>3</td>
+                  <td>no</td>
+                </tr>
+                <tr>
+                  <td>2/6/20</td>
+                  <td>M. B. Sile</td>
+                  <td>Flipper</td>
+                  <td>2</td>
+                  <td>no</td>
+                </tr>
+                <tr>
+                  <td>4/5/20</td>
+                  <td>M. ND. Acious</td>
+                  <td>Aloha</td>
+                  <td>12</td>
+                  <td>almost! Really!</td>
+                </tr>
+                <tr>
+                  <td>6/2/20</td>
+                  <td>N. T. Youusah</td>
+                  <td>Lapet</td>
+                  <td>1</td>
+                  <td>no</td>
+                </tr>
+                <tr>
+                  <td>8/12/20</td>
+                  <td>L. Lubber</td>
+                  <td>Fisher</td>
+                  <td>3</td>
+                  <td>get 'em next time!</td>
+                </tr>
+                <tr>
+                  <td>9/20/20</td>
+                  <td>M. B. Sile</td>
+                  <td>Flashy</td>
+                  <td>30</td>
+                  <td>we lost 30 minions, sorry :( So no.</td>
+                </tr>
+               
+              </tbody>
+            </table>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>s
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace()
+    </script>
+
+    <!-- Graphs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script>
+      var ctx = document.getElementById("myChart");
+      var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October" ],
+          datasets: [{
+            data: [2, 4, 2, 3, 8, 5, 9, 6, 12, 25 ],
+            lineTension: 0,
+            backgroundColor: 'transparent',
+            borderColor: '#007bff',
+            borderWidth: 4,
+            pointBackgroundColor: '#007bff'
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: false
+              }
+            }]
+          },
+          legend: {
+            display: false,
+          }
+        }
+      });
+    </script>
+  </body>
+</html>

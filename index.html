@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./cover.css" type="text/css"/>
+
+
+    <title>Notorious Dolphins</title>
+  </head>
+  <body>
+    <header>
+      <div class="collapse bg-light" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-dark">About</h4>
+              <p class="text-muted">The public has a right to know about the dolphin pirate menace now threatening human ships! Look around this site to familiarize yourself with this dangerous new threat.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-dark">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="https://twitter.com/elegantguitar?lang=en" class="text-primary">Follow on Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/michael-w-cho/" class="text-primary">Connect on LinkedIn</a></li>
+                <li><a href="#" class="text-primary">Email me</a></li>
+                <li><a href="./signin.html" class="text-primary">Login</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <img 
+           
+            src="./images/eye.svg"
+            width="25px" style="margin-right: 16px" alt="eye">
+            <!-- <img src="./net.png" class="rounded" width="25px" style="margin-right: 16px" alt="net"/> -->
+             Dolphin Watch
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+
+
+      <div class="modal fade modal-xl" tabindex="-1" id="reportModal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Report Pirate Dolphin Sighting</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <!-- <img src="./d1.jpg" style="width: 100%"/> -->
+              <p class="card-text">Please fill out the following form:</p>
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Dolphin description</label>
+                  <input type="input" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">Your secret is safe with us.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Location</label>
+                  <input type="input" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">You witnessed piracy committed</label><br/>
+                  <input type="checkbox" class="form-check-input" id="exampleCheck2"> 
+                  <label class="form-check-label" for="exampleCheck2">You are human</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="display-1 text-light ">Dolphin Pirates of the High Seas</h1>
+          <p class="lead text-light">If you see any of these notorious sea-scum, report them immediately to Dolphin Watch. With your cooperation, we'll make the Seven Seas safe once again for humans!</p>
+          <p>
+            <a href="#" class="btn btn-danger my-2" data-toggle="modal" data-target="#reportModal">Report Pirate</a>
+            
+            <a href="./carousel.html" class="btn btn-primary my-2">Dolphin Watch Careers</a>
+          </p>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-dark">
+        <div class="container">
+
+          <div class="modal fade modal-xl" tabindex="-1" id="flashyModal">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">"Flashy" Jayce</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./images/d1.jpg" style="width: 100%"/>
+                  <p class="card-text">"Flashy" is alleged to be involved in the death of a SeaWorld security guard.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 mb-5">
+              <div class="card mb-4 shadow-sm h-100">
+                <img class="card-img-top"  src="./images/d1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">"Flashy" Jayce has been seen leaping out of the water in various bays and inlets, from off the coast of California to the Riviera in the Mediterranean. An escaped SeaWorld performer, Flashy is wanted for his alleged involvement in the death of a SeaWorld guard, although other reports claim the man merely slipped on a fish when trying to catch Flashy.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+                <div class="btn-group mb-3 ml-3">
+                  <button type="button" data-toggle="modal" data-target="#flashyModal" class="btn btn-sm btn-outline-secondary">Details</button>
+                </div>
+                <div class="alert alert-success" role="alert">
+                  Considered "finned" and dangerous!
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade modal-xl" tabindex="-1" id="fisherModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Fisher the Fish-Thief</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./images/d2.jpg" style="width: 100%"/>
+                    <p class="card-text">Fisher has robbed many innocent fishermen of their livelihood.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-5">
+              <div class="card mb-4 shadow-sm h-100">
+                <img class="card-img-top" src="./images/d2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Fisher, a known fish-thief, is wanted in connection with biting through dozens of fishing nets, robbing many innocent fishermen of their livelihood and causing thousands of dollars in damage. He is physically fit and an avid leaper. He has a noticeable crown on his 54th left tooth. He may swim with a pronounced starboard tilt due to a 2004 encounter with an offboard motor.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+                <div class="btn-group mb-3 ml-3">
+                  <button type="button" data-toggle="modal" data-target="#fisherModal" class="btn btn-sm btn-outline-secondary">Details</button>
+                </div>
+                <div class="alert alert-success" role="alert">
+                  Considered "finned" and dangerous!
+                </div>
+              </div>
+            </div>
+            
+            <div class="modal fade modal-xl" tabindex="-1" id="lapetModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Lapet the Raft-Rammer</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./images/d4.jpg" style="width: 100%"/>
+                    <p class="card-text">Lapet is classified as an "environmental terrorist"</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-5">
+              <div class="card mb-4 shadow-sm h-100">
+                <img class="card-img-top" src="./images/d4.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Lapet is wanted for allegedly ramming and sinking an inflatable raft of illegal eco-tourists off the Galapagos Islands, which nonetheless was a violation of the 1934 Rubber Boat and Conveyance Protection Act. She can be identified by her blunt and powerful nose and the distinctive brownish hue to her skin.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+                <div class="btn-group mb-3 ml-3">
+                  <button type="button" data-toggle="modal" data-target="#lapetModal" class="btn btn-sm btn-outline-secondary">Details</button>
+                </div>
+                <div class="alert alert-success" role="alert">
+                  Considered "finned" and dangerous!
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="modal fade modal-xl" tabindex="-1" id="alohaModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Aloha and Her Gang</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./images/aloha.jpg" style="width: 100%"/>
+                    <p class="card-text">Aloha is wanted for destroying Salmon Pops!</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm h-100">
+                <img class="card-img-top" src="./images/aloha.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Aloha is wanted for allegedly destroying the sea-barrier at the Cape Useless salmon farm in Pudget Sound. This led to the escape of multiple entire harvests of valuable salmon destined for the food packing industry, devastating the once-promising "Salmon Pops" popsicle launch. Aloha is reportedly accompanied by three smaller criminal dolphins, her calves.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+                <div class="btn-group mb-3 ml-3">
+                  <button type="button" data-toggle="modal" data-target="#alohaModal" class="btn btn-sm btn-outline-secondary">Details</button>
+                </div>
+                <div class="alert alert-success" role="alert">
+                  Considered "finned" and dangerous!
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade modal-xl" tabindex="-1" id="flipperModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Flipper the Tanker Saboteur</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./images/d5.jpg" style="width: 100%"/>
+                    <p class="card-text">Flipper is considered very dangerous to large ocean-going vessels</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm h-100">
+                <img class="card-img-top" src="./images/d5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Ken "Flipper" Gray is an older Bottlenose Dolphin, wanted for his alleged involvement in the sabotage of an Exxon oil tanker bound for Hawaii. Reportedly, Flipper and his gang of dolphin pirates wound algae around the tanker's propellers, costing tens of thousands of dollars in damage and delays. It was found that the tanker was unseaworthy and would have foundered and spilled oil into the sea if it departed.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+                <div class="btn-group mb-3 ml-3">
+                  <button type="button" data-toggle="modal" data-target="#flipperModal" class="btn btn-sm btn-outline-secondary">Details</button>
+                </div>
+                <div class="alert alert-success" role="alert">
+                  Considered "finned" and dangerous!
+                </div>
+              </div>
+            </div>
+
+            <div class="modal fade modal-xl" tabindex="-1" id="castleModal">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Sharp-Toothed Castle</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./images/d6.jpg" style="width: 100%"/>
+                    <p class="card-text">Castle can be identified by his very sharp teeth</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm h-100">
+                <img class="card-img-top" src="./images/d6.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Castle is wanted for the wanton destruction of fifty-six fishing nets in a variety of locations in the Pacific Ocean and Sea of Baja. Castle may be identified by his pointed teeth, which he reportedly keeps sharpened by rubbing on coral. This escaped SeaWorld dolphin is known to be friendly to children, but is considered very dangerous to fishermen!</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                  </div>
+                </div>
+                <div class="btn-group mb-3 ml-3">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Details</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <div class="alert alert-success" role="alert">
+                  Considered "finned" and dangerous!
+                </div>
+              </div>
+            </div>
+
+          
+          
+ 
+      </div>
+
+    </main>
+
+    <footer class="text-light bg-dark">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>Notorious Dolphins is &copy;Michael W. Cho. No piracy is allowed!</p>
+        <p>Need a Front End Developer or a website? <a href="https://mikecho.dev">Visit the homepage</a> or read our <a href="https://mikecho.dev">blog</a>.</p>
+      </div>
+    </footer>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
